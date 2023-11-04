@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --header-bg: #10375c;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -9,4 +13,87 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Sora", sans-serif;
+}
+
+/* ============== common ================= */
+.container {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 205px;
+  line-height: 60px;
+  background: #2e80ce;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 999px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* ================ header ================ */
+.header {
+  padding-top: 30px;
+  background: var(--header-bg);
+  min-height: 100vh;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__list {
+  display: flex;
+}
+
+.header__action--login,
+.navbar__link {
+  padding: 8px 21px;
+  color: #c9d2da;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.navbar__link:hover,
+.navbar__link--active {
+  text-shadow: 1px 0 0 currentColor;
+  color: #fff;
+}
+
+.navbar__link--active::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #fff;
+  top: -3px;
+  position: relative;
+  right: 8px;
+}
+
+.header__action--signup {
+  min-width: 144px;
+  line-height: 44px;
+  font-size: 1.6rem;
+}
+
+.header__action--login {
+  margin-right: 7px;
 }
