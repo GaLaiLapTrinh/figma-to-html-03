@@ -5,7 +5,7 @@
 \*link Figma dự án :
 
 
-https://www.figma.com/file/3kHcuu3c8fvhnA2q2wUwBM/  
+https://www.figma.com/design/pOu7xW5Qdfdb69JoP781KF
 
 
 \*\* Link demo kết quả dự án hoàn thiện :
