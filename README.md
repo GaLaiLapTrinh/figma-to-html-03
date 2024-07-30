@@ -4,8 +4,7 @@
 
 \*link Figma dự án :
 
-
-https://www.figma.com/design/pOu7xW5Qdfdb69JoP781KF
+https://www.figma.com/design/9onqgKUvwZFrxvAsskMSdJ
 
 
 \*\* Link demo kết quả dự án hoàn thiện :
